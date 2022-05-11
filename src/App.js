@@ -85,10 +85,13 @@ function ListItem(props) {
         <div className="list-item row jc-space-between">
             <span className={props.itemData.isComplete ? 'task-complete' : ''}
                   >&nbsp;{props.itemData}</span>
+            <div>
+
             <button className="btn"
                  onClick={() => props.deleteTask(props.index)}><i className="fa fa-trash"/></button>
             <button className="btn"
                  onClick={() => props.EditeAllTask(props.index)}><i className="fa fa-edit"/></button>
+            </div>
         </div>
     );
 }
