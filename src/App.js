@@ -56,7 +56,7 @@ function App() {
 
     return (
         <div className="app-background">
-            <p className="heading-text">React To Do List</p>
+            <p className="heading-text">React To Do List <span role="img" aria-label="react">🔥</span></p>
             <div className="task-container column">
                 <div className="row">
                     <input
